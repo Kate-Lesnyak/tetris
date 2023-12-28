@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(90deg, green, yellow);
+	height: 100vh;
+	user-select: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 60px;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+
+p {
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.tetris {
+	background-color: blueviolet;
+	padding: 0.5vh;
+	border-radius: 0.5vh;
+	display: grid;
+	grid-template-columns: repeat(10, auto);
+	grid-template-rows: repeat(20, auto);
+}
+
+.tetris div {
+	height: min(4vh, 7vw);
+	width: min(4vh, 7vw);
+	background-color: blueviolet;
+	border-radius: 0.3vh;
+	box-shadow:
+		inset 2px 2px 2px rgba(255, 255, 255, 0.2),
+		inset -2px -2px 2px rgba(255, 200, 200, 0.2);
+}
+
+/* .tetris .O {
+	background-color: yellowgreen;
+}
+
+.tetris .L {
+	background-color: yellow;
+}
+
+.tetris .J {
+	background-color: indianred;
+}
+
+.tetris .S {
+	background-color: orange;
+}
+
+.tetris .Z {
+	background-color: orangered;
+}
+
+.tetris .T {
+	background-color: bisque;
+} */
+
+.O {
+
+	background-color: darkcyan
+}
